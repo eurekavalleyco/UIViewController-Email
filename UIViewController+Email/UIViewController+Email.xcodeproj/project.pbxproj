@@ -42,7 +42,7 @@
 		7DCBD6A018E6034700C677BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DCBD6A218E6034700C677BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7DCBD6A418E6034700C677BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7DCBD6A818E6034700C677BE /* UIViewController+Email-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+Email-Info.plist"; sourceTree = "<group>"; };
+		7DCBD6A818E6034700C677BE /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		7DCBD6AA18E6034700C677BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DCBD6AC18E6034700C677BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DCBD6AE18E6034700C677BE /* UIViewController+Email-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Email-Prefix.pch"; sourceTree = "<group>"; };
@@ -57,10 +57,10 @@
 		7DCBD6C718E6034700C677BE /* UIViewController+EmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+EmailTests-Info.plist"; sourceTree = "<group>"; };
 		7DCBD6C918E6034700C677BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DCBD6CB18E6034700C677BE /* UIViewController_EmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController_EmailTests.m; sourceTree = "<group>"; };
-		7DCBD6D618E604D600C677BE /* UIViewController+Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Email.h"; sourceTree = "<group>"; };
-		7DCBD6D718E604D600C677BE /* UIViewController+Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Email.m"; sourceTree = "<group>"; };
-		7DCBD6D918E6051C00C677BE /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
-		7DCBD6DA18E6051C00C677BE /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attachment.m; sourceTree = "<group>"; };
+		7DCBD6D618E604D600C677BE /* UIViewController+Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Email.h"; path = "../UIViewController+Email.h"; sourceTree = "<group>"; };
+		7DCBD6D718E604D600C677BE /* UIViewController+Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Email.m"; path = "../UIViewController+Email.m"; sourceTree = "<group>"; };
+		7DCBD6D918E6051C00C677BE /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attachment.h; path = ../Attachment.h; sourceTree = "<group>"; };
+		7DCBD6DA18E6051C00C677BE /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Attachment.m; path = ../Attachment.m; sourceTree = "<group>"; };
 		7DCBD6DD18E609E100C677BE /* empire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empire.png; sourceTree = "<group>"; };
 		7DCBD6DE18E609E100C677BE /* empire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empire@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +136,7 @@
 		7DCBD6A718E6034700C677BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DCBD6A818E6034700C677BE /* UIViewController+Email-Info.plist */,
+				7DCBD6A818E6034700C677BE /*  */,
 				7DCBD6A918E6034700C677BE /* InfoPlist.strings */,
 				7DCBD6AC18E6034700C677BE /* main.m */,
 				7DCBD6AE18E6034700C677BE /* UIViewController+Email-Prefix.pch */,
