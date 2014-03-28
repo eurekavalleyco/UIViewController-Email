@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DCBD6A118E6034700C677BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCBD6A018E6034700C677BE /* Foundation.framework */; };
+		7DCBD6A318E6034700C677BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCBD6A218E6034700C677BE /* CoreGraphics.framework */; };
+		7DCBD6A518E6034700C677BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCBD6A418E6034700C677BE /* UIKit.framework */; };
+		7DCBD6AB18E6034700C677BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBD6A918E6034700C677BE /* InfoPlist.strings */; };
+		7DCBD6AD18E6034700C677BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBD6AC18E6034700C677BE /* main.m */; };
+		7DCBD6B118E6034700C677BE /* KHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBD6B018E6034700C677BE /* KHAppDelegate.m */; };
+		7DCBD6B418E6034700C677BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBD6B218E6034700C677BE /* Main.storyboard */; };
+		7DCBD6B718E6034700C677BE /* KHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBD6B618E6034700C677BE /* KHViewController.m */; };
+		7DCBD6B918E6034700C677BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBD6B818E6034700C677BE /* Images.xcassets */; };
+		7DCBD6C018E6034700C677BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCBD6BF18E6034700C677BE /* XCTest.framework */; };
+		7DCBD6C118E6034700C677BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCBD6A018E6034700C677BE /* Foundation.framework */; };
+		7DCBD6C218E6034700C677BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCBD6A418E6034700C677BE /* UIKit.framework */; };
+		7DCBD6CA18E6034700C677BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBD6C818E6034700C677BE /* InfoPlist.strings */; };
+		7DCBD6CC18E6034700C677BE /* UIViewController_EmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBD6CB18E6034700C677BE /* UIViewController_EmailTests.m */; };
+		7DCBD6D818E604D600C677BE /* UIViewController+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBD6D718E604D600C677BE /* UIViewController+Email.m */; };
+		7DCBD6DB18E6051C00C677BE /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBD6DA18E6051C00C677BE /* Attachment.m */; };
+		7DCBD6DF18E609E100C677BE /* empire.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBD6DD18E609E100C677BE /* empire.png */; };
+		7DCBD6E018E609E100C677BE /* empire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBD6DE18E609E100C677BE /* empire@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DCBD6C318E6034700C677BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DCBD69518E6034700C677BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCBD69C18E6034700C677BE;
+			remoteInfo = "UIViewController+Email";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DCBD69D18E6034700C677BE /* UIViewController+Email.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController+Email.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCBD6A018E6034700C677BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DCBD6A218E6034700C677BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DCBD6A418E6034700C677BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DCBD6A818E6034700C677BE /* UIViewController+Email-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+Email-Info.plist"; sourceTree = "<group>"; };
+		7DCBD6AA18E6034700C677BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DCBD6AC18E6034700C677BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DCBD6AE18E6034700C677BE /* UIViewController+Email-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Email-Prefix.pch"; sourceTree = "<group>"; };
+		7DCBD6AF18E6034700C677BE /* KHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAppDelegate.h; sourceTree = "<group>"; };
+		7DCBD6B018E6034700C677BE /* KHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAppDelegate.m; sourceTree = "<group>"; };
+		7DCBD6B318E6034700C677BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DCBD6B518E6034700C677BE /* KHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHViewController.h; sourceTree = "<group>"; };
+		7DCBD6B618E6034700C677BE /* KHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHViewController.m; sourceTree = "<group>"; };
+		7DCBD6B818E6034700C677BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DCBD6BE18E6034700C677BE /* UIViewController+EmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIViewController+EmailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCBD6BF18E6034700C677BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7DCBD6C718E6034700C677BE /* UIViewController+EmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+EmailTests-Info.plist"; sourceTree = "<group>"; };
+		7DCBD6C918E6034700C677BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DCBD6CB18E6034700C677BE /* UIViewController_EmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController_EmailTests.m; sourceTree = "<group>"; };
+		7DCBD6D618E604D600C677BE /* UIViewController+Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Email.h"; sourceTree = "<group>"; };
+		7DCBD6D718E604D600C677BE /* UIViewController+Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Email.m"; sourceTree = "<group>"; };
+		7DCBD6D918E6051C00C677BE /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
+		7DCBD6DA18E6051C00C677BE /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attachment.m; sourceTree = "<group>"; };
+		7DCBD6DD18E609E100C677BE /* empire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empire.png; sourceTree = "<group>"; };
+		7DCBD6DE18E609E100C677BE /* empire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empire@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DCBD69A18E6034700C677BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCBD6A318E6034700C677BE /* CoreGraphics.framework in Frameworks */,
+				7DCBD6A518E6034700C677BE /* UIKit.framework in Frameworks */,
+				7DCBD6A118E6034700C677BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCBD6BB18E6034700C677BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCBD6C018E6034700C677BE /* XCTest.framework in Frameworks */,
+				7DCBD6C218E6034700C677BE /* UIKit.framework in Frameworks */,
+				7DCBD6C118E6034700C677BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DCBD69418E6034700C677BE = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6A618E6034700C677BE /* UIViewController+Email */,
+				7DCBD6C518E6034700C677BE /* UIViewController+EmailTests */,
+				7DCBD69F18E6034700C677BE /* Frameworks */,
+				7DCBD69E18E6034700C677BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCBD69E18E6034700C677BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD69D18E6034700C677BE /* UIViewController+Email.app */,
+				7DCBD6BE18E6034700C677BE /* UIViewController+EmailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DCBD69F18E6034700C677BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6A018E6034700C677BE /* Foundation.framework */,
+				7DCBD6A218E6034700C677BE /* CoreGraphics.framework */,
+				7DCBD6A418E6034700C677BE /* UIKit.framework */,
+				7DCBD6BF18E6034700C677BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DCBD6A618E6034700C677BE /* UIViewController+Email */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6D618E604D600C677BE /* UIViewController+Email.h */,
+				7DCBD6D718E604D600C677BE /* UIViewController+Email.m */,
+				7DCBD6D918E6051C00C677BE /* Attachment.h */,
+				7DCBD6DA18E6051C00C677BE /* Attachment.m */,
+				7DCBD6D518E6049800C677BE /* Sample Project */,
+				7DCBD6B818E6034700C677BE /* Images.xcassets */,
+				7DCBD6A718E6034700C677BE /* Supporting Files */,
+			);
+			path = "UIViewController+Email";
+			sourceTree = "<group>";
+		};
+		7DCBD6A718E6034700C677BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6A818E6034700C677BE /* UIViewController+Email-Info.plist */,
+				7DCBD6A918E6034700C677BE /* InfoPlist.strings */,
+				7DCBD6AC18E6034700C677BE /* main.m */,
+				7DCBD6AE18E6034700C677BE /* UIViewController+Email-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DCBD6C518E6034700C677BE /* UIViewController+EmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6CB18E6034700C677BE /* UIViewController_EmailTests.m */,
+				7DCBD6C618E6034700C677BE /* Supporting Files */,
+			);
+			path = "UIViewController+EmailTests";
+			sourceTree = "<group>";
+		};
+		7DCBD6C618E6034700C677BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6C718E6034700C677BE /* UIViewController+EmailTests-Info.plist */,
+				7DCBD6C818E6034700C677BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DCBD6D518E6049800C677BE /* Sample Project */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6AF18E6034700C677BE /* KHAppDelegate.h */,
+				7DCBD6B018E6034700C677BE /* KHAppDelegate.m */,
+				7DCBD6B218E6034700C677BE /* Main.storyboard */,
+				7DCBD6B518E6034700C677BE /* KHViewController.h */,
+				7DCBD6B618E6034700C677BE /* KHViewController.m */,
+				7DCBD6DC18E609D000C677BE /* PNGs */,
+			);
+			name = "Sample Project";
+			sourceTree = "<group>";
+		};
+		7DCBD6DC18E609D000C677BE /* PNGs */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBD6DD18E609E100C677BE /* empire.png */,
+				7DCBD6DE18E609E100C677BE /* empire@2x.png */,
+			);
+			name = PNGs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DCBD69C18E6034700C677BE /* UIViewController+Email */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCBD6CF18E6034700C677BE /* Build configuration list for PBXNativeTarget "UIViewController+Email" */;
+			buildPhases = (
+				7DCBD69918E6034700C677BE /* Sources */,
+				7DCBD69A18E6034700C677BE /* Frameworks */,
+				7DCBD69B18E6034700C677BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIViewController+Email";
+			productName = "UIViewController+Email";
+			productReference = 7DCBD69D18E6034700C677BE /* UIViewController+Email.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DCBD6BD18E6034700C677BE /* UIViewController+EmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCBD6D218E6034700C677BE /* Build configuration list for PBXNativeTarget "UIViewController+EmailTests" */;
+			buildPhases = (
+				7DCBD6BA18E6034700C677BE /* Sources */,
+				7DCBD6BB18E6034700C677BE /* Frameworks */,
+				7DCBD6BC18E6034700C677BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DCBD6C418E6034700C677BE /* PBXTargetDependency */,
+			);
+			name = "UIViewController+EmailTests";
+			productName = "UIViewController+EmailTests";
+			productReference = 7DCBD6BE18E6034700C677BE /* UIViewController+EmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DCBD69518E6034700C677BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ken M. Haggerty";
+				TargetAttributes = {
+					7DCBD6BD18E6034700C677BE = {
+						TestTargetID = 7DCBD69C18E6034700C677BE;
+					};
+				};
+			};
+			buildConfigurationList = 7DCBD69818E6034700C677BE /* Build configuration list for PBXProject "UIViewController+Email" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DCBD69418E6034700C677BE;
+			productRefGroup = 7DCBD69E18E6034700C677BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DCBD69C18E6034700C677BE /* UIViewController+Email */,
+				7DCBD6BD18E6034700C677BE /* UIViewController+EmailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DCBD69B18E6034700C677BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCBD6B918E6034700C677BE /* Images.xcassets in Resources */,
+				7DCBD6AB18E6034700C677BE /* InfoPlist.strings in Resources */,
+				7DCBD6E018E609E100C677BE /* empire@2x.png in Resources */,
+				7DCBD6B418E6034700C677BE /* Main.storyboard in Resources */,
+				7DCBD6DF18E609E100C677BE /* empire.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCBD6BC18E6034700C677BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCBD6CA18E6034700C677BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DCBD69918E6034700C677BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCBD6B718E6034700C677BE /* KHViewController.m in Sources */,
+				7DCBD6AD18E6034700C677BE /* main.m in Sources */,
+				7DCBD6B118E6034700C677BE /* KHAppDelegate.m in Sources */,
+				7DCBD6D818E604D600C677BE /* UIViewController+Email.m in Sources */,
+				7DCBD6DB18E6051C00C677BE /* Attachment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCBD6BA18E6034700C677BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCBD6CC18E6034700C677BE /* UIViewController_EmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DCBD6C418E6034700C677BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DCBD69C18E6034700C677BE /* UIViewController+Email */;
+			targetProxy = 7DCBD6C318E6034700C677BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DCBD6A918E6034700C677BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCBD6AA18E6034700C677BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DCBD6B218E6034700C677BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCBD6B318E6034700C677BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DCBD6C818E6034700C677BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DCBD6C918E6034700C677BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DCBD6CD18E6034700C677BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DCBD6CE18E6034700C677BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DCBD6D018E6034700C677BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewController+Email/UIViewController+Email-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController+Email/UIViewController+Email-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DCBD6D118E6034700C677BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewController+Email/UIViewController+Email-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController+Email/UIViewController+Email-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7DCBD6D318E6034700C677BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewController+Email.app/UIViewController+Email";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewController+Email/UIViewController+Email-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIViewController+EmailTests/UIViewController+EmailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7DCBD6D418E6034700C677BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewController+Email.app/UIViewController+Email";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewController+Email/UIViewController+Email-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController+EmailTests/UIViewController+EmailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DCBD69818E6034700C677BE /* Build configuration list for PBXProject "UIViewController+Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCBD6CD18E6034700C677BE /* Debug */,
+				7DCBD6CE18E6034700C677BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DCBD6CF18E6034700C677BE /* Build configuration list for PBXNativeTarget "UIViewController+Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCBD6D018E6034700C677BE /* Debug */,
+				7DCBD6D118E6034700C677BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DCBD6D218E6034700C677BE /* Build configuration list for PBXNativeTarget "UIViewController+EmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCBD6D318E6034700C677BE /* Debug */,
+				7DCBD6D418E6034700C677BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DCBD69518E6034700C677BE /* Project object */;
+}
